@@ -14,7 +14,7 @@ An API has been developed using FastAPI, accessible through an ASGI launched wit
 
 Continuous Integration/Continuous Deployment (CI/CD) processes have been established using Docker and GitHub Actions. A Docker container image is created and pushed to Amazon ECR (Elastic Container Registry). Subsequently, the latest image is pulled onto an Amazon EC2 instance where the application is hosted. GitHub Actions automates the process of pulling the latest image onto the EC2 instance, ensuring seamless updates.
 
-#### **Note:** *The CI/CD process is not currently supported, as I have shutted down the AWS services for this process due to costs.*
+#### **Note:** _The CI/CD process is not currently supported, as I have shutted down the AWS services for this process due to costs._
 
 ### TODO
 * [ ] Frontend GUI
